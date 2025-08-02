@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mailhog-dev
+  labels:
+    app: mailhog
+    environment: dev
