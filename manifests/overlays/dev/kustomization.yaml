@@ -4,8 +4,6 @@ kind: Kustomization
 metadata:
   name: mailhog-dev
 
-namespace: mailhog
-
 resources:
 - ../../base
 
