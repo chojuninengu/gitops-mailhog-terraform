@@ -4,10 +4,11 @@ kind: Kustomization
 metadata:
   name: mailhog-dev
 
-namespace: mailhog
+namespace: mailhog-dev
 
 resources:
 - ../../base
+- namespace.yaml
 
 patches:
 - target:
