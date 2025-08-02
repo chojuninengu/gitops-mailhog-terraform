@@ -21,6 +21,12 @@ patches:
     - op: add
       path: /spec/template/metadata/labels
       value:
+        app: mailhog
+        environment: prod
+    - op: add
+      path: /spec/selector/matchLabels
+      value:
+        app: mailhog
         environment: prod
     - op: add
       path: /spec/template/spec/containers/0/resources

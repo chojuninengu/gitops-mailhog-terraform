@@ -20,6 +20,12 @@ patches:
     - op: add
       path: /spec/template/metadata/labels
       value:
+        app: mailhog
+        environment: dev
+    - op: add
+      path: /spec/selector/matchLabels
+      value:
+        app: mailhog
         environment: dev
 
 commonLabels:
