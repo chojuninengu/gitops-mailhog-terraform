@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mailhog-prod
+  labels:
+    app: mailhog
+    environment: prod 
