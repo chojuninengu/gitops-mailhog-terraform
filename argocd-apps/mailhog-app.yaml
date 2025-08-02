@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: mailhog
+  name: mailhog-dev
   namespace: argocd
 spec:
   project: default
